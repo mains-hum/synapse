@@ -46,7 +46,7 @@ Just run:
 > nix run github:mains-hum/synapse -- ~/music
 ```
 
-### Installation (NixOS Flake)
+### Flake
 
 ```bash
 {
