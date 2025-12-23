@@ -1,6 +1,6 @@
 <div align="center">
 
-## Synapse
+## Synapse :volcano:
 
 <p align="center">
   <img src="https://img.shields.io/github/repo-size/mains-hum/synapse?style=for-the-badge&logo=github&color=81a1c1&logoColor=white" alt="Repo Size" />
@@ -51,7 +51,7 @@ Just run:
 ```bash
 {
   inputs.synapse.url = "github:mains-hum/synapse";
-
+  
   outputs = { self, nixpkgs, synapse, ... }: {
     nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
       modules = [
