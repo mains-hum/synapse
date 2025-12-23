@@ -3,15 +3,15 @@
 ## Synapse :volcano:
 
 <p align="center">
-  <img src="https://img.shields.io/github/repo-size/mains-hum/synapse?style=for-the-badge&logo=github&color=81a1c1&logoColor=white" alt="Repo Size" />
+  <img src="https://img.shields.io/github/languages/code-size/mains-hum/synapse?style=for-the-badge&logo=github&color=81a1c1&logoColor=white" alt="Code Size" />
   
   <img src="https://img.shields.io/badge/NixOS-Unstable-5277C3?style=for-the-badge&logo=nixos&logoColor=white" alt="NixOS" />
   
   <img src="https://img.shields.io/badge/Language-Rust-dea584?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
   
-  <img src="https://img.shields.io/github/last-commit/mains-hum/synapse?style=for-the-badge&color=81a1c1&logo=github" alt="Last Commit" />
+  <img src="https://img.shields.io/github/last-commit/mains-hum/synapse?style=for-the-badge&color=81a1c1&logo=github&logoColor=white" alt="Last Commit" />
   
-  <img src="https://img.shields.io/github/license/mains-hum/synapse?style=for-the-badge&color=ebcb8b" alt="License" />
+  <img src="https://img.shields.io/github/license/mains-hum/synapse?style=for-the-badge&color=ebcb8b&logoColor=white" alt="License" />
 </p>
 
 ---
