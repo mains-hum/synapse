@@ -25,8 +25,8 @@
 
 ## 📸 Screenshot
 <p align="center">
-  <img src="screenshot/1.png" width="48%" />
-  <img src="screenshot/2.png" width="48%" />
+  <img src="screenshots/1.png" width="48%" />
+  <img src="screenshots/2.png" width="48%" />
 </p>
 
 ---
@@ -34,11 +34,12 @@
 ## 📦 Get Started
 
 ### Quick Run
-You don't even need to install it. Just run:
+You don't even need to install it. 
+Just run:
 
 ```bash
 # Run with your music directory
-> nix run github:mains-hum/synapse -- ~/path/to/music
+> nix run github:mains-hum/synapse -- ~/music
 ```
 
 ### Installation (NixOS Flake)
@@ -56,6 +57,11 @@ You don't even need to install it. Just run:
   };
 }
 ```
+```bash
+#Run with your music directory
+> synapce ~/music
+```
+
 ---
 
 <div align="center">
