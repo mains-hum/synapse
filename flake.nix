@@ -6,12 +6,17 @@
     rust-overlay.url = "github:oxalica/rust-overlay";
   };
 
-  outputs = { self, nixpkgs, rust-overlay }:
+  outputs =
+    {
+      self,
+      nixpkgs,
+      rust-overlay,
+    }:
     let
       system = "x86_64-linux";
       overlays = [ (import rust-overlay) ];
       pkgs = import nixpkgs { inherit system overlays; };
-      
+
       runtimeDeps = with pkgs; [
         alsa-lib
         fontconfig
@@ -29,7 +34,7 @@
       };
 
       packages.${system}.default = pkgs.rustPlatform.buildRustPackage {
-        pname = "synapce";
+        pname = "synapse";
         version = "0.1.0";
         src = ./.;
 
