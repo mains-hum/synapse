@@ -43,7 +43,7 @@ Just run:
 
 ```bash
 # Run with your music directory
-> nix run github:mains-hum/synapse -- ~/music
+> nix run github:mains-hum/synapce -- ~/music
 ```
 
 ### Flake
